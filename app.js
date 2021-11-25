@@ -8,7 +8,6 @@ const select = document.querySelector('#sel-characters');
 select.addEventListener('change', SelectCharacter);
 
 
-AddCharacter();
 function AddCharacter() {
   fetch(URL)
   .then(response=>response.json())
@@ -22,6 +21,7 @@ function AddCharacter() {
     select.appendChild(fragment);
   });
 }
+AddCharacter();
 
 function SelectCharacter(event) {
   event.preventDefault();
