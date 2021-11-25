@@ -1,4 +1,4 @@
-const URL = "http://apichavo.herokuapp.com/character/";
+const URL = "//apichavo.herokuapp.com/character/";
 
 const main_card = document.querySelector('#main-card');
 const template_card = document.querySelector('#template-card').content;
